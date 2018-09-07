@@ -1,0 +1,175 @@
+<mvc:View height="100%" 
+	controllerName="ZDPVMS.ITEM_DISPLAY.controller.Main" 
+	xmlns:layout="sap.ui.layout" 
+	xmlns:form="sap.ui.layout.form"
+	xmlns:core="sap.ui.core" 
+	xmlns:u="sap.ui.unified" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:mvs="sap.ui.core.VerticalAlign"
+	xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+		<App>
+			<pages>
+				<Page title="{i18n>tabOne}"
+					showNavButton="true"
+					navButtonPress="onNavBack">
+					<content>
+						<tnt:ToolHeader>
+								<ToolbarSpacer width="30px" />
+								<!--<Image src="https://png.icons8.com/windows/50/000000/honda.png" class="image"/>-->
+								<Image src="http://i.imgur.com/m0REiTP.png" class="image" height="50px"/>
+									<Button text="Print Preview">
+										<layoutData>
+											<OverflowToolbarLayoutData priority="Low" />
+										</layoutData>
+									</Button>
+									<Button icon="sap-icon://refresh">
+										<layoutData>
+											<OverflowToolbarLayoutData priority="Low" />
+										</layoutData>
+									</Button>
+									<Button text="User Actions">
+										<layoutData>
+											<OverflowToolbarLayoutData priority="Low" />
+										</layoutData>
+									</Button>
+								<!--<Image src="http://i.imgur.com/PU0czC8.png" class="image" height="45px"/>-->
+									<tnt:ToolHeaderUtilitySeparator />
+							</tnt:ToolHeader>
+						</content>
+						<content>
+							  <!--<ObjectHeader responsive="true">-->
+									<!--<headerContainer>-->
+			      <!--                      <HeaderContainer>-->
+			      <!--                          <content>-->
+			    							<Panel>
+			    								<content>
+			                                	<Label text="{i18n>honda}" width="5rem" vAlign="Bottom"/>
+			                                    <Label text="{i18n>plant}" width="4rem" vAlign="Bottom"/>
+			                                    <Label text="{i18n>customerName}" width="8rem" vAlign="Bottom"/>
+			                                    <Label text="{i18n>vehicleModel}" width="8rem" vAlign="Bottom"/>
+			                                    </content>
+			                                </Panel>    
+									<!--		</content>-->
+			      <!--                      </HeaderContainer>-->
+			      <!--                  </headerContainer>-->
+							  <!--</ObjectHeader>-->
+						</content>
+					<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding" select="onIconTabBarChanged">
+						<items>
+							<IconTabFilter text="Info">
+								<content>
+									<VBox class="sapUiSmallMargin">
+										<f:SimpleForm 
+											id="SimpleFormChange354wideDual" 
+											editable="true" 
+											labelSpanXL="4" 
+											labelSpanL="3" 
+											labelSpanM="4" 
+											labelSpanS="12"
+											adjustLabelSpan="false" 
+											emptySpanXL="0" 
+											emptySpanL="4" 
+											emptySpanM="0" 
+											emptySpanS="0" 
+											columnsXL="2" 
+											columnsL="1" 
+											columnsM="1"
+										singleContainerFullSize="false">
+											<f:content>
+												<core:Title text="{i18n>identification}"/>
+													<Label text="{i18n>salesDoc}"/>
+													<Input value="{itemDetail>/0/salecDoc}" editable="false"/>
+													<Label text="{i18n>poNum}"/>
+													<Input value="{itemDetail>/0/poNum}" editable="false"/>
+													<Label text="{i18n>salesDoc}"/>
+													<Input value="{itemDetail>/0/salesDocType}" editable="false"/>
+												<core:Title text="{i18n>dates}"/>
+													<Label text="{i18n>ceatedOn}"/>
+													<Input value="{path:'itemDetail>/0/createdOn', 
+														type: 'sap.ui.model.type.Date', 
+														formatOptions: { source: { pattern: 'yyyy-MM-ddTHH:mm:ss.000Z' }, 
+														pattern: 'yyy/MM/dd' }}" editable="false"/>
+													<Label text="{i18n>poDate}"/>
+													<Input value="{path:'itemDetail>/0/poDate', 
+														type: 'sap.ui.model.type.Date', 
+														formatOptions: { source: { pattern: 'yyyy-MM-ddTHH:mm:ss.000Z' }, 
+														pattern: 'yyy/MM/dd' }}" editable="false"/>
+													<Label text="{i18n>requestDiv}"/>
+													<Input value="{itemDetail>/0/requestDate}" editable="false"/>
+											</f:content>
+											<f:content>
+												<core:Title text="{i18n>partner}"/>
+													<Label text="{i18n>customer}"/>
+													<Input value="{itemDetail>/0/customer}" editable="false"/>
+													<Label text="{i18n>shipToParty}"/>
+													<Input value="{itemDetail>/0/shipToParty}" editable="false"/>
+													<Label text="{i18n>billToParty}"/>
+													<Input value="{itemDetail>/0/billToParty}" editable="false"/>
+													<Label text="{i18n>payer}"/>
+													<Input value="{itemDetail>/0/payer}" editable="false"/>
+													<Label text="{i18n>endCustomer}"/>
+													<Input value="{itemDetail>/0/endCustomer} {itemDetail>/0/endCustomerDesc}" editable="false"/>
+												<core:Title text="{i18n>additionalData}"/>
+													<Label text="{i18n>ceatedBy}"/>
+													<Input value="{itemDetail>/0/createdBy}" editable="false"/>
+													<Label text="{i18n>orderReason}"/>
+													<Input value="{itemDetail>/0/orderReason}" editable="false"/>
+													<Label text="{i18n>shippingType}"/>
+													<Input value="{itemDetail>/0/shippingType}" editable="false"/>
+													<Label text="{i18n>rejectionStat}"/>
+													<Input value="{itemDetail>/0/salesDocType}" editable="false"/>
+											</f:content>
+											<f:content>
+												<core:Title text="{i18n>itemData}"/>
+													<Label text="{i18n>item}"/>
+													<Input value="{itemDetail>/0/itemNum}" editable="false"/>
+													<Label text="{i18n>rejectionReason}"/>
+													<Input value="{itemDetail>/0/rejectionReason}" editable="false"/>
+													<core:Title text=""/>
+											</f:content>
+										</f:SimpleForm>
+									</VBox>
+								</content>
+							</IconTabFilter>
+							<IconTabFilter text="Attachments">
+								<Text text="Attachments go here ..."/>
+							</IconTabFilter>
+							<IconTabFilter text="Notes">
+								<Text text="Notes go here ..."/>
+							</IconTabFilter>
+							<IconTabFilter text="People">
+								<Text text="People content goes here ..."/>
+							</IconTabFilter>
+							<IconTabFilter text="Header Price" key="1">
+									<content>
+									<Table inset="false" fixedLayout="false" id="table" class="sapUiResponsiveMargin" width="auto">
+										<headerToolbar>
+											<Toolbar>
+												<Title id="tableHeader" text="Table One"/>
+											</Toolbar>
+										</headerToolbar>
+									</Table>
+									 <Toolbar>
+							          <ToolbarSpacer />
+								          <Button
+								            press="onPrint"
+								            text="Print"
+								            icon="sap-icon://print"
+								            type="Emphasized" />
+								          <Button
+								            press="onPrint"
+								            text="Print Table"
+								            data:targetId="table"
+								            icon="sap-icon://print"/>
+							        </Toolbar>
+								</content>
+							</IconTabFilter>
+						</items>
+					</IconTabBar>
+				</Page>
+			</pages>
+		</App>
+</mvc:View>

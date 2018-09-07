@@ -1,0 +1,26 @@
+{
+	"players": [
+		{
+			"id": 1,
+			"firstName": "Piotr",
+			"lastName": "Celeński",
+			"code": "2_PICE",
+			"trainingId": 1,
+			"positionId": 62
+		}, {
+			"id": 2,
+			"firstName": "Marcin",
+			"lastName": "Mikuła",
+			"code": "4_PICE",
+			"trainingId": 1,
+			"positionId": 5
+		}, {
+			"id": 3,
+			"firstName": "Paweł",
+			"lastName": "Deraźny",
+			"code": "6_PICE",
+			"trainingId": 31,
+			"positionId": 2
+		}
+	]
+}

@@ -1,0 +1,10 @@
+<mvc:View
+	height="100%"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="ZDPVMS.ITEM_DISPLAY.controller.Error" >
+	<MessagePage showHeader="false"
+				 text="Your browser can't load this page properly."
+				 icon="sap-icon://message-warning">
+	</MessagePage>
+</mvc:View>

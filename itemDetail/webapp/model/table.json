@@ -1,0 +1,349 @@
+{
+	"table":
+	[
+	    {
+	        "category": "1",
+	        "group": "1",
+	        "columns": [
+	            {
+	                "name": "CnTy"
+	            },
+	            {
+	                "name": "Description"
+	            },
+	            {
+	                "name": "Amount"
+	            },
+	            {
+	                "name": "Unit"
+	            },
+	            {
+	                "name": "per"
+	            },
+	            {
+	                "name": "UoM"
+	            },
+	            {
+	                "name": "Condition value"
+	            },
+	            {
+	                "name": "Curr."
+	            }
+	        ],
+	        "items": [
+	            {
+	                "operationType": {
+	                    "value": "ZRRP",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Retail Pr. for model",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "2.235,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "0",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "4.470,00",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                }
+	            },{
+	                "operationType": {
+	                    "value": "ZRRP",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Retail Pr. for model",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "2.235,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "1",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "4.470,00",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                }
+	            },{
+	                "operationType": {
+	                    "value": "ZDMP",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Retail Pr. for model",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "2.235,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "%",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "0",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "44,70",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                }
+	            },
+	            {
+	                "operationType": {
+	                    "value": "ZDMP",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Retail Pr. for model",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "2.235,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "%",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "1",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "4.693,50",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                }
+	            },
+	            {
+	                "operationType": {
+	                    "value": "ZRRP",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Retail Pr. for model",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "2.235,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "1",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "233,50",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                }
+	            },
+	            {
+	                "operationType": {
+	                    "value": "ZSRR",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "Hold Back",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "validFrom": {
+	                    "value": "0,00",
+	                    "semanticObject": null
+	                },
+	                "validTo": {
+	                    "value": "%",
+	                    "semanticObject": null
+	                },
+	                "customer": {
+	                    "value": "0",
+	                    "semanticObject": null
+	                },
+	                "endCustomer": {
+	                    "value": "FC",
+	                    "semanticObject": null
+	                },
+	                 "endCustom": {
+	                    "value": "5.397,53",
+	                    "semanticObject": null
+	                },
+	                 "endCusto": {
+	                    "value": "EUR",
+	                    "semanticObject": null
+	                },
+	                 "endCus": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endC": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCust": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCuss": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCustomm": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCuston": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCa": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                },
+	                 "endCuus": {
+	                    "value": "120",
+	                    "semanticObject": null
+	                }
+	            }
+	        ]
+	    },
+	    {
+	        "category": "2",
+	        "group": "2",
+	        "columns": [
+	            {
+	                "name": "Operation type"
+	            },
+	            {
+	                "name": "Int. Veh. No."
+	            },
+	            {
+	                "name": "Sales Document"
+	            },
+	            {
+	                "name": "Item"
+	            },
+	            {
+	                "name": "Sales Doc. Type"
+	            },
+	            {
+	                "name": "Vehicle Model"
+	            }
+	        ],
+	        "items": [
+	            {
+	                "operationType": {
+	                    "value": "Sales Order with Vehicle",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "0000000569",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "salesDocument": {
+	                    "value": "50000251",
+	                    "semanticObject": null
+	                },
+	                "item": {
+	                    "value": "10",
+	                    "semanticObject": "ITEM_DETAILS"
+	                },
+	                "salecDocType": {
+	                    "value": "ZVOR",
+	                    "semanticObject": null
+	                },
+	                "vehicleModel": {
+	                    "value": "173",
+	                    "semanticObject": null
+	                }
+	            },
+	            {
+	                "operationType": {
+	                    "value": "Sales Order with Vehicle",
+	                    "semanticObject":  null
+	                },
+	                "intVehNum": {
+	                    "value": "0000000568",
+	                    "semanticObject": "VEHICLE_DETAILS"
+	                },
+	                "salesDocument": {
+	                    "value": "50000254",
+	                    "semanticObject": null
+	                },
+	                "item": {
+	                    "value": "20",
+	                    "semanticObject": "ITEM_DETAILS"
+	                },
+	                "salecDocType": {
+	                    "value": "ZVOR",
+	                    "semanticObject": null
+	                },
+	                "vehicleModel": {
+	                    "value": "169",
+	                    "semanticObject": null
+	                }
+	            }
+	        ]
+	    }
+	]
+}
